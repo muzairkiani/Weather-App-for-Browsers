@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+
+  <link rel="stylesheet" type="text/css" href="css/response.css">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Temperature in <%= city %> is <%= temperature %>°. </h1>
+  <h2>Feels like <%= feels_like %>°</h1>
+    <h2> <%= weather %></h2>
+    <img src="<%= image %>" alt="weather-image">
+    <p>Visibility: <%= visibilityKey %> km</p>
+    <p>Wind speed: <%= windSpeedKey  %> m/s</p>
+    <p>Humidity: <%= humidityKey %>%</p>
+    <p>Wind direction: <%= windDirectionKey %>°</p>
+    <p>Pressure: <%= pressureKey  %> hPa</p>
+
+
+
+</body>
+
+</html>

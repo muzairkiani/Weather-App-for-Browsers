@@ -1,0 +1,27 @@
+body{
+  margin-top: 5%;
+  background-color: #cae4db;
+  font-family: 'Baloo Bhai 2';
+  text-align: center;
+  color: #00303f;
+
+}
+h1{
+  font-size: 5rem;
+  font-weight: 700;
+  color: #00303f;
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.5rem;
+}
+p:hover{
+  color: #433d3c;
+}
+img {
+
+  width: 10%;
+
+}
